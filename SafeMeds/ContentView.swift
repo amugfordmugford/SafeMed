@@ -20,7 +20,7 @@ struct ContentView: View {
                 List {
                     ForEach(viewModel.medications) { medication in
                         VStack(alignment: .leading) {
-                            Text(medication.name ?? "Unnamed Medication")
+                            Text(medication.name ?? "Unnamed Medication") //comment for testing
                                 .font(.headline)
 
                             HStack {
